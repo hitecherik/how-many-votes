@@ -34,7 +34,8 @@ header {
 
 h1 {
   font-size: 3em;
-  margin-bottom: 4rem;
+  line-height: 1em;
+  margin-bottom: 2rem;
 }
 
 input {
