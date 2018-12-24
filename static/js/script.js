@@ -19,7 +19,7 @@
     $field.attr('placeholder', 'Enter your postcode.');
 
     if (focus) {
-      $field.get(0).focus();
+      $field.focus();
     }
   }
 
@@ -53,6 +53,8 @@
 
     if (postcode !== currentPostcode && validPostcodes.test(postcode)) {
       currentPostcode = postcode;
+
+      $field.blur();
 
       $result.fadeOut(1000, function() {
         $.getJSON('/api/' + postcode, renderer);
