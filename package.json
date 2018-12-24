@@ -1,0 +1,11 @@
+{
+  "name": "how-many-votes",
+  "version": "1.0.0",
+  "description": "Finds the number of votes a person has nationally based on their constituency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Nielsen",
+  "license": "MIT"
+}
