@@ -1,0 +1,51 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.5em;
+  color: white;
+
+  background: #1A237E;
+  transition: background 1s;
+}
+
+body.surplus {
+  background: #1B5E20;
+}
+
+body.defecit {
+  background: #B71C1C;
+}
+
+header, main, footer {
+  width: 40%;
+  min-width: 500px;
+  margin: 2em auto;
+}
+
+header {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  background: transparent;
+  color: inherit;
+  font-size: 2em;
+  text-align: center;
+  border: 0;
+}
+
+.result {
+  text-align: center;
+  margin: 3em 0;
+  display: none;
+}
+
+.result span, .votes {
+  font-weight: bold;
+}
+
+.votes {
+  font-size: 3em;
+  margin: 2rem 0;
+}
