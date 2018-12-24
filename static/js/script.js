@@ -6,7 +6,7 @@
   // HTML elements
   var $body = $(document.body),
       $form = $('#postcode-form'),
-      $field = $('#postcode'),
+      $field = $('#postcode').val(''),
       $result = $('#result'),
       $constituency = $('#constituency'),
       $location = $('#location'),
