@@ -71,7 +71,10 @@
 
   if ('geolocation' in navigator) {
     navigator.geolocation.getCurrentPosition(function(pos) {
-      $.getJSON('/api/' + pos.coords.latitude + '/' + pos.coords.longitude, renderer);
+      $.getJSON('/api/' + pos.coords.latitude + '/' + pos.coords.longitude, function(data) {
+        $field.val(data.postcode);
+        renderer(data);
+      });
     }, function() {
       resetPlaceholder(true);
     });
