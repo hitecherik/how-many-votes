@@ -9,9 +9,9 @@
   "author": "Alexander Nielsen",
   "license": "MIT",
   "dependencies": {
-    "better-sqlite3": "^5.2.1",
-    "express": "^4.16.4",
-    "request": "^2.88.0",
-    "request-promise-native": "^1.0.5"
+    "better-sqlite3": "^6.0.1",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.8"
   }
 }
