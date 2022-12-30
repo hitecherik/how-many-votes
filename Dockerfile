@@ -1,6 +1,4 @@
-FROM node:10.23-alpine3.11
-
-RUN apk add python3 make g++
+FROM node:18
 
 WORKDIR /var/how-many-votes
 COPY . .
